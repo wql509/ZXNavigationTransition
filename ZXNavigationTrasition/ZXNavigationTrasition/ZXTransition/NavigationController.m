@@ -23,7 +23,7 @@
 		self.interTransition = [[ZXInteractiveTransition alloc] init];
 		self.push = [[ZXTransitionAnimation alloc] initTransition:YES animationStyle:TransitionAnimationStyleCircleSpread];
 		self.pop = [[ZXTransitionAnimation alloc] initTransition:NO animationStyle:TransitionAnimationStyleCircleSpread];
-		self.interTransition.delegate = self.pop;
+		self.interTransition.delegate = self.pop.delegate;
 	}
 	return self;
 }

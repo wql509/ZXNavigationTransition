@@ -18,6 +18,7 @@
 		4CAE06DF1D37847F00E56996 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE06DE1D37847F00E56996 /* NavigationController.m */; };
 		4CAE06E61D37895000E56996 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE06E41D37895000E56996 /* NextViewController.m */; };
 		4CAE06E71D37895000E56996 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE06E51D37895000E56996 /* NextViewController.xib */; };
+		4CDC33381F67D4CA00A08C87 /* ZXAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDC33371F67D4CA00A08C87 /* ZXAnimationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		4CAE06E31D37895000E56996 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		4CAE06E41D37895000E56996 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		4CAE06E51D37895000E56996 /* NextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
+		4CDC33361F67D4CA00A08C87 /* ZXAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXAnimationManager.h; sourceTree = "<group>"; };
+		4CDC33371F67D4CA00A08C87 /* ZXAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXAnimationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				4CAE06D71D3783CF00E56996 /* ZXTransitionAnimation.m */,
 				4CAE06DD1D37847F00E56996 /* NavigationController.h */,
 				4CAE06DE1D37847F00E56996 /* NavigationController.m */,
+				4CDC33361F67D4CA00A08C87 /* ZXAnimationManager.h */,
+				4CDC33371F67D4CA00A08C87 /* ZXAnimationManager.m */,
 			);
 			path = ZXTransition;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				4CAE06D91D3783CF00E56996 /* ZXTransitionAnimation.m in Sources */,
 				4CAE06C11D37815000E56996 /* AppDelegate.m in Sources */,
 				4CAE06DF1D37847F00E56996 /* NavigationController.m in Sources */,
+				4CDC33381F67D4CA00A08C87 /* ZXAnimationManager.m in Sources */,
 				4CAE06E61D37895000E56996 /* NextViewController.m in Sources */,
 				4CAE06BE1D37815000E56996 /* main.m in Sources */,
 				4CAE06D81D3783CF00E56996 /* ZXInteractiveTransition.m in Sources */,

@@ -8,13 +8,10 @@
 
 #import <Foundation/Foundation.h>
 @import UIKit;
-#import "ZXInteractiveTransition.h"
+#import "ZXAnimationManager.h"
 
-typedef NS_ENUM(NSUInteger, TransitionAnimationStyle) {
-	TransitionAnimationStyleLocker,
-	TransitionAnimationStyleCircleSpread
-};
+@interface ZXTransitionAnimation : NSObject <UIViewControllerAnimatedTransitioning>
+@property (nonatomic, weak, readonly) id<ZXInteractiveTransitionDelegate> delegate;
 
-@interface ZXTransitionAnimation : NSObject <UIViewControllerAnimatedTransitioning, ZXInteractiveTransitionDelegate>
 - (instancetype)initTransition:(BOOL)isPush animationStyle:(TransitionAnimationStyle)style;
 @end
