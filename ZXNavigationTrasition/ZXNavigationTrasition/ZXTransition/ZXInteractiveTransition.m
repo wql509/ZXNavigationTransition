@@ -46,9 +46,11 @@
 		{
 			self.isActive = NO;
 			if (persent > 0.5) {
+				[self.delegate zx_finished];
 				[self finishInteractiveTransition];
 			}
 			else {
+				[self.delegate zx_cacelled];
 				[self cancelInteractiveTransition];
 			}
 			break;

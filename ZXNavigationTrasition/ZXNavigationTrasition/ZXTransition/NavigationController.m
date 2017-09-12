@@ -20,9 +20,10 @@
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
 	if ([super initWithCoder:aDecoder]) {
-		self.push = [[ZXTransitionAnimation alloc] initTransition:YES];
-		self.pop = [[ZXTransitionAnimation alloc] initTransition:NO];
 		self.interTransition = [[ZXInteractiveTransition alloc] init];
+		self.push = [[ZXTransitionAnimation alloc] initTransition:YES animationStyle:TransitionAnimationStyleCircleSpread];
+		self.pop = [[ZXTransitionAnimation alloc] initTransition:NO animationStyle:TransitionAnimationStyleCircleSpread];
+		self.interTransition.delegate = self.pop;
 	}
 	return self;
 }
